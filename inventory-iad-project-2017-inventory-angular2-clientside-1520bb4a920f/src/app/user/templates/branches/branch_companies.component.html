@@ -1,0 +1,83 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Inventory Management</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="#"><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a routerLink="/branch_companies" routerLinkActive="active">Compnaies<span
+                            class="sr-only">(current)</span></a></li>
+
+                </ul>
+                <router-outlet></router-outlet>
+
+                <ul class=" nav navbar-nav navbar-btn ">
+                    <button class="btn btn-primary" routerLink="/add_branch_companies" routerLinkActive="active">Add
+                        Companies
+                    </button>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>{{username}}</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" routerLinkActive="active" (click)="Logout()">Logout</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div class="container">
+
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Companies</div>
+        <div class="panel-body">
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>companyid</th>
+                    <th>Companyname</th>
+                    <th>Companyphonenumber</th>
+                    <th>Companyaddresss</th>
+                    <th>Delete</th>
+                </tr>
+
+                <tr *ngFor="let Company of company">
+                    <td>{{Company.company_id}}</td>
+                    <td><a href="#" class="branchlink" (click)="getCompanyid(Company.company_id)"
+                           routerLink="/branch_products" routerLinkActive="active" id="companyname">
+                        {{Company.company_name}} </a></td>
+                    <td>{{Company.company_phone}}</td>
+                    <td>{{Company.company_address}}</td>
+                    <td>
+                        <button class="btn btn-danger" (click)="deleteCompanyid(Company.company_id)"><span
+                                class="glyphicon glyphicon-trash"></span>Delete
+                        </button>
+                    </td>
+                </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+
+</div>

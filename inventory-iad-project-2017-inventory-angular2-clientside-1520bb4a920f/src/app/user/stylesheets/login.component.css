@@ -1,0 +1,24 @@
+.loginform {
+    margin-top: 15%;
+    margin-right: 25%;
+    margin-left: 10%;
+}
+
+.box {
+    width: 70%;
+    height: 450px;
+    background-color: black;
+    /*#9d9d9d*/
+    border-radius: 5px;
+}
+
+.input-field {
+    margin-top: 10%;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.label {
+    font-size: larger;
+}

@@ -1,0 +1,30 @@
+        <------ Things to do After Exams! ------>
+
+                  <--- Server Side --->
+1) Correct Migration and Model table of Products.
+2) Add Many to Many relationship's APIs.
+3) Write Edit Invoices and Other API's that are incomplete.
+4) Add HTTP codes in APIs.
+5) Add tokens via jwt.
+6) Add seeders in Server side code.
+7) Complete remaining services that were left because of incomplete API's.
+
+                  <--- Client Side --->
+
+8) Use and find better templates.
+9) Integrate code between Angular 2 and HTML.
+10) Do form validation.
+11) Connect Services with Angular code (Client-Server Integration).
+12) Client side authentication via 'Auth-guard'.
+
+                    <--- Goodwill --->
+
+13) Add Barcode Scanner.
+
+                  <--- Documentation --->
+
+14) Write proper API Documentation.
+
+              <--- Testing and Deployment --->
+
+15) Full and Final Testing before deployment in phase 2.

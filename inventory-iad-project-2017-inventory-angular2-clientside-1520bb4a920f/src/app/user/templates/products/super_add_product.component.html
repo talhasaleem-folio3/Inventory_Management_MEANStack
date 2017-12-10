@@ -1,0 +1,95 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Inventory</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="#"><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="#"><a routerLink="/allproducts" routerLinkActive="active">Products<span
+                            class="sr-only">(current)</span></a></li>
+                </ul>
+                <router-outlet></router-outlet>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a >{{username}}</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" routerLinkActive="active" (click)="Logout()">Logout</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div>
+                <fieldset>
+                    <legend style="color: white">Product Info</legend>
+                    <br/>
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon8"></span>
+                        <input type="text" #productId class="form-control" placeholder="Product id"
+                               aria-describedby="basic-addon8">
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon2"></span>
+                        <input type="text" #productName class="form-control" placeholder="productname"
+                               aria-describedby="basic-addon2">
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon4"></span>
+                        <input type="text" #productWeight class="form-control" placeholder="product weight"
+                               aria-describedby="basic-addon4">
+                    </div>
+                    <br/>
+                    <!--<div class="input-group">-->
+                    <!--<span class="input-group-addon" id="basic-addon3"></span>-->
+                    <!--<input type="text" #productQuantity class="form-control" placeholder="product quantity" aria-describedby="basic-addon3">-->
+                    <!--</div>-->
+                    <!--<br/>-->
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon5"></span>
+                        <input type="text" #productUnitprice class="form-control" placeholder="product unitprice"
+                               aria-describedby="basic-addon5">
+                    </div>
+                    <br/>
+
+                    <!--<div class="input-group">-->
+                    <!--<span class="input-group-addon" id="basic-addon6"></span>-->
+                    <!--<input type="text" #totalPrice class="form-control" placeholder="Total Price" aria-describedby="basic-addon6">-->
+                    <!--</div>-->
+                    <!--<br/>-->
+                    <button type="submit" routerLink="/allproducts" routerLinkActive="active"
+                            (click)="addProduct(productId.value,productName.value,productWeight.value,productUnitprice.value)"
+                            class="btn btn-primary">Add Product
+                    </button>
+                    <div style="color: white">{{message}}</div>
+                </fieldset>
+            </div>
+
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>

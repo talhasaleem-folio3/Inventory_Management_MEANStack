@@ -1,0 +1,108 @@
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" >Inventory</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="#"><a routerLink="/alluser" routerLinkActive="active">Employees <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <router-outlet></router-outlet>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" routerLinkActive="active" (click)="Logout()">Logout</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>{{username}}</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div>
+                    <fieldset>
+                        <legend>Employee</legend>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1"></span>
+                            <input type="text" #Username required="required" class="form-control" placeholder="Username"
+                                   aria-describedby="basic-addon1">
+                        </div>
+                        <br/>
+
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon2"></span>
+                            <input type="text" #Password required="required" class="form-control" placeholder="Password"
+                                   aria-describedby="basic-addon2">
+                        </div>
+                        <br/>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon2"></span>
+                            <input type="text" #Firstname required="required" class="form-control"
+                                   placeholder="Firstname" aria-describedby="basic-addon2">
+                        </div>
+                        <br/>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon3"></span>
+                            <input type="text" #lastname class="form-control" required="required" placeholder="lastname"
+                                   aria-describedby="basic-addon3">
+                        </div>
+                        <br/>
+
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon2"></span>
+                            <input type="text" #Salary class="form-control" placeholder="Salary" required="required"
+                                   aria-describedby="basic-addon2">
+                        </div>
+                        <br/>
+
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon2"></span>
+                            <input type="text" #Sales class="form-control" placeholder="Sales" required="required"
+                                   aria-describedby="basic-addon2">
+                        </div>
+                        <br/>
+
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon2"></span>
+                            <input type="text" #Branch_id class="form-control" placeholder="Branch_id"
+                                   required="required" aria-describedby="basic-addon2">
+                        </div>
+                        <br/>
+
+                        <label style="color: white; font-size: larger; padding: 5px">Designation : </label>
+                        <select #designation name="designation" class="dropdown">
+                          <option value="CEO" selected>CEO</option>
+                            <option  value="Employee" >Employee</option>
+                            <option value="Manager" >Manager</option>
+                        </select><br/><br/>
+                        <button type="submit" routerLink="/alluser" routerLinkActive="active"
+                                (click)="addUser(Username.value,Password.value,Firstname.value,lastname.value,designation.value,Salary.value,Sales.value,Branch_id.value)"
+                                class="btn btn-primary">Submit
+                        </button>
+                    </fieldset>
+                </div>
+
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+</div>

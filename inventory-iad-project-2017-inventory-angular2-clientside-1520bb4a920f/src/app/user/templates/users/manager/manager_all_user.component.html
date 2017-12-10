@@ -1,0 +1,92 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" >Inventory</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+
+                    <li class="active"><a routerLink="/manager_all_user" routerLinkActive="active">Employees<span
+                            class="sr-only">(current)</span></a></li>
+
+                </ul>
+                <router-outlet></router-outlet>
+
+                <ul class=" nav navbar-nav navbar-btn ">
+                    <button class="btn btn-primary" (click)="addEmployee()">Add Employee</button>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" routerLinkActive="active" (click)="Logout()">Logout</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a >{{username}}</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="container">
+
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Employees</div>
+        <div class="panel-body">
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Sales</th>
+                    <th>Branch_id</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </tr>
+                <tr *ngFor="let User of user">
+                    <td><a href="#" class="branchlink" routerLinkActive="active" routerLink="/userdetails">{{User.username}}</a>
+                    </td>
+                    <td>{{User.first_name}}</td>
+                    <td>{{User.last_name}}</td>
+                    <td>{{User.designation}}</td>
+                    <td>{{User.salary}}</td>
+                    <td>{{User.sales}}</td>
+                    <td>{{User.branch_id}}</td>
+                    <td>
+                        <button class="btn btn-danger" (click)="deleteEmployee(User)"><span
+                                class="glyphicon glyphicon-trash"></span>Delete
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-success"
+                                routerLink="/manager_all_user" routerLinkActive="active"
+                                (click)="editEmployee(User)"><span
+                                class="glyphicon glyphicon-edit"></span>Edit Employee
+                        </button>
+                    </td>
+                </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+
+</div>

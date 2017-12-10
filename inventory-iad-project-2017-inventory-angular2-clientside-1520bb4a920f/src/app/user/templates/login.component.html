@@ -1,0 +1,99 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container text-color">
+  <div class="row">
+    <div class="col-sm-3 about">
+      <!--<div class="media">-->
+        <!--<div class="media-left">-->
+          <!--<img src="../../images/background.jpg">-->
+        <!--</div>-->
+        <!--<div class="media-body">-->
+          <!--<h4 class="media-heading">Owais Uddin Gilani</h4>-->
+
+        <!--</div>-->
+        <!--<br/>-->
+        <!--<div class="media-left">-->
+          <!--<img src="../../images/pic.PNG">-->
+        <!--</div>-->
+        <!--<div class="media-body">-->
+          <!--<h4 class="media-heading">Talha Saleem</h4>-->
+        <!--</div>-->
+        <!--<br/>-->
+        <!--<div class="media-left">-->
+          <!--<img src="../../images/pic.PNG">-->
+        <!--</div>-->
+        <!--<div class="media-body">-->
+
+          <!--<h4 class="media-heading">Owais Karni</h4>-->
+
+        <!--</div>-->
+
+      <!--</div>-->
+    </div>
+    <style>
+      .loginform{
+        margin-top: 15%;
+        margin-right: 25%;
+        margin-left: 10%;
+      }
+      .box{
+        width: 70%;
+        height: 450px;
+        background-color: #1b6d85;
+        border-radius: 5px;
+      }
+      .input-field{
+        margin-top: 10%;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      label{
+        font-size: 18px;
+        font-family: "Arial Rounded MT Bold";
+      }
+    </style>
+    <div class="col-sm-6">
+      <h1>Inventory Management System</h1>
+      <div class="loginform box input-field">
+        <span class="alert col-lg-offset-3" >{{message}}</span>
+        <div class="input-group form-group">
+          <label>Username : </label>
+          <input type="text" required="required" #username #nameRef="ngModel" class="form-control"  placeholder="Username" name="username" ngModel aria-describedby="basic-addon1">
+          <div [hidden]="nameRef.valid || nameRef.pristine" class="alert alert-danger">
+            Please enter the name
+          </div>
+        </div>
+        <br/>
+        <div class="input-group form-group">
+          <label>Password :</label>
+          <input type="password" #password #passRef="ngModel" required="required"  class="form-control" placeholder="password" name="password" ngModel  aria-describedby="basic-addon12">
+          <div [hidden]="passRef.valid || passRef.pristine" class="alert alert-danger">
+            Please enter the password
+          </div>
+        </div>
+        <br/>
+
+        <div [ngSwitch]="designation">
+          <button (click)="userlogin(username.value,password.value)" *ngSwitchDefault="" class="btn btn-success" >Login</button>
+        </div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+</div>
+<script>
+  var firstApp = angular.module("Images", []);
+  var firstController = function ($scope) {
+    var listimage = {
+      ID: '1',
+      Name: "Jasmin",
+      Path: "./background.jpg"
+    };
+    $scope.dataholder = listimage;
+  };
+    firstApp.controller("ControllerName", firstController)
+</script>

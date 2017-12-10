@@ -1,0 +1,99 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" >Inventory</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a routerLink="/manager_all_user" routerLinkActive="active">Employees<span
+                            class="sr-only">(current)</span></a></li>
+
+                </ul>
+                <router-outlet></router-outlet>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>Logout</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a >Username</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <form>
+                <fieldset>
+                    <legend>EmployeeInfo Edit</legend>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon2"></span>
+                        <input type="text" #username class="form-control" value="{{user.username}}"
+                               aria-describedby="basic-addon2">
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3"></span>
+                        <input type="text" #firstname class="form-control" value="{{user.first_name}}"
+                               aria-describedby="basic-addon3">
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon4"></span>
+                        <input type="text" #lastname class="form-control" placeholder="product quantity"
+                               value="{{user.last_name}}" aria-describedby="basic-addon4">
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon5"></span>
+                        <input type="text" #designation class="form-control" placeholder="product unitprice"
+                               value="{{user.designation}}" aria-describedby="basic-addon5">
+                    </div>
+                    <br/>
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon5"></span>
+                        <input type="text" #salary class="form-control" placeholder="product unitprice"
+                               value="{{user.salary}}" aria-describedby="basic-addon5">
+                    </div>
+                    <br/>
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon5"></span>
+                        <input type="text" #sales class="form-control" placeholder="product unitprice"
+                               value="{{user.sales}}" aria-describedby="basic-addon5">
+                    </div>
+                    <br/>
+                    <button class="btn btn-success" routerLink="/manager_all_user" routerLinkActive="active"
+                            (click)="editEmployee(username.value,firstname.value,lastname.value,designation.value,salary.value,sales.value)">
+                        Edit
+                        Employee
+                    </button>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>

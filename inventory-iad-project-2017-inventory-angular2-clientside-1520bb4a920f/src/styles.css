@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+.text-color{
+ color: white;
+}
+.media-heading{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about{
+  margin-top: 25%;
+}
+.media-body{
+  display: inline;
+}
+.loginbutton{
+  background-color: #4cae4c;
+  border-color: #4cae4c;
+  padding: 2% 15% 2% 15% ;
+  margin-top:5% ;
+  margin-left: 25%;
+  font-size: larger;
+  font-family: Arial;
+  font-weight: bold;
+}

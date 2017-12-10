@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c48e2b1-27e8-4a6a-a4d3-c49473ea1a15" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/accounts.js" afterPath="$PROJECT_DIR$/routes/accounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/all_companies.js" afterPath="$PROJECT_DIR$/routes/all_companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/branch_companies.js" afterPath="$PROJECT_DIR$/routes/branch_companies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/branch_products.js" afterPath="$PROJECT_DIR$/routes/branch_products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/branches.js" afterPath="$PROJECT_DIR$/routes/branches.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/invoices.js" afterPath="$PROJECT_DIR$/routes/invoices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/signup.js" afterPath="$PROJECT_DIR$/routes/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/stock_order.js" afterPath="$PROJECT_DIR$/routes/stock_order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeders/20170701103009-branch.js" afterPath="$PROJECT_DIR$/seeders/20170701103009-branch.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="140" column="7" lean-forward="true" selection-start-line="140" selection-start-column="7" selection-end-line="140" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Sequelize</find>
+      <find>branch</find>
+      <find>such</find>
+      <find>No such branch available</find>
+      <find>statusCode</find>
+      <find>date</find>
+      <find>for</find>
+      <find>branch2products</find>
+      <find>Promise,</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>company</replace>
+      <replace>DataTypes</replace>
+      <replace>status</replace>
+      <replace>invoice_date</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/models/accounts.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421044515-create-branch-2-company.js" />
+        <option value="$PROJECT_DIR$/migrations/20170422155128-create-branch-2-company.js" />
+        <option value="$PROJECT_DIR$/models/employees.js" />
+        <option value="$PROJECT_DIR$/migrations/20170417105307-create-employees.js" />
+        <option value="$PROJECT_DIR$/routes/companies.js" />
+        <option value="$PROJECT_DIR$/models/order2products.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421175138-create-order-2-products.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421175006-create-stock-order.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421171958-create-branch-2-products.js" />
+        <option value="$PROJECT_DIR$/models/stock_order.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103023-branch2company.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103033-branch2products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103123-invoice.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103140-invoice2products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103210-order2products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103219-products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103229-stock_order.js" />
+        <option value="$PROJECT_DIR$/seeders/20170702180143-branch2products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170702181956-order2products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170702182706-stock_order.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/seeders/20170702180924-invoice.js" />
+        <option value="$PROJECT_DIR$/models/company.js" />
+        <option value="$PROJECT_DIR$/models/branch.js" />
+        <option value="$PROJECT_DIR$/models/branch2company.js" />
+        <option value="$PROJECT_DIR$/seeders/20170702181411-invoice2products.js" />
+        <option value="$PROJECT_DIR$/models/branch2products.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421050431-create-products.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421172706-create-invoice.js" />
+        <option value="$PROJECT_DIR$/models/invoice.js" />
+        <option value="$PROJECT_DIR$/models/invoice2products.js" />
+        <option value="$PROJECT_DIR$/models/products.js" />
+        <option value="$PROJECT_DIR$/migrations/20170421173555-create-invoice-2-products.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701102958-accounts.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103115-employees.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103107-company.js" />
+        <option value="$PROJECT_DIR$/seeders/20170702155233-products.js" />
+        <option value="$PROJECT_DIR$/seeders/20170701103009-branch.js" />
+        <option value="$PROJECT_DIR$/routes/all_companies.js" />
+        <option value="$PROJECT_DIR$/routes/accounts.js" />
+        <option value="$PROJECT_DIR$/routes/branch_companies.js" />
+        <option value="$PROJECT_DIR$/routes/branch_products.js" />
+        <option value="$PROJECT_DIR$/routes/branches.js" />
+        <option value="$PROJECT_DIR$/routes/invoices.js" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/routes/products.js" />
+        <option value="$PROJECT_DIR$/routes/signup.js" />
+        <option value="$PROJECT_DIR$/routes/stock_order.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/routes/users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.branch_products.js">
+    <configuration default="false" name="companies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/routes/branch_companies.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="false" name="branch_products.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="branch_products.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.companies.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.branch_products.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.branch_products.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.companies.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c48e2b1-27e8-4a6a-a4d3-c49473ea1a15" name="Default" comment="" />
+      <created>1492426265750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492426265750</updated>
+      <workItem from="1492426267275" duration="4771000" />
+      <workItem from="1492434065404" duration="7493000" />
+      <workItem from="1492449603569" duration="6667000" />
+      <workItem from="1492492504004" duration="324000" />
+      <workItem from="1492508967811" duration="8406000" />
+      <workItem from="1492522371917" duration="6895000" />
+      <workItem from="1492586604128" duration="5540000" />
+      <workItem from="1492671497646" duration="2869000" />
+      <workItem from="1492748535374" duration="4442000" />
+      <workItem from="1492768625240" duration="940000" />
+      <workItem from="1492791007036" duration="6261000" />
+      <workItem from="1492841708364" duration="20518000" />
+      <workItem from="1492867820232" duration="5512000" />
+      <workItem from="1492875778227" duration="2854000" />
+      <workItem from="1492879445115" duration="9220000" />
+      <workItem from="1492934557197" duration="10402000" />
+      <workItem from="1492952848151" duration="12991000" />
+      <workItem from="1493007997621" duration="4574000" />
+      <workItem from="1493029599374" duration="4574000" />
+      <workItem from="1493046032914" duration="1834000" />
+      <workItem from="1493047920628" duration="155000" />
+      <workItem from="1493180883164" duration="13017000" />
+      <workItem from="1493212813999" duration="2000" />
+      <workItem from="1493213092791" duration="1553000" />
+      <workItem from="1493214961557" duration="1351000" />
+      <workItem from="1493228692818" duration="1799000" />
+      <workItem from="1493230528272" duration="1248000" />
+      <workItem from="1493268465266" duration="1753000" />
+      <workItem from="1493270286726" duration="1806000" />
+      <workItem from="1493272136332" duration="928000" />
+      <workItem from="1493277325539" duration="1608000" />
+      <workItem from="1493294129522" duration="1231000" />
+      <workItem from="1493446698010" duration="981000" />
+      <workItem from="1493448446020" duration="689000" />
+      <workItem from="1493451143885" duration="1803000" />
+      <workItem from="1493452976969" duration="757000" />
+      <workItem from="1493454980636" duration="1858000" />
+      <workItem from="1493456868960" duration="1681000" />
+      <workItem from="1493458940181" duration="326000" />
+      <workItem from="1493542900968" duration="341000" />
+      <workItem from="1493543275230" duration="21000" />
+      <workItem from="1493547411077" duration="702000" />
+      <workItem from="1493548941979" duration="5000" />
+      <workItem from="1493788119507" duration="1068000" />
+      <workItem from="1493789874068" duration="623000" />
+      <workItem from="1493802946890" duration="1126000" />
+      <workItem from="1493804557385" duration="615000" />
+      <workItem from="1493830553582" duration="938000" />
+      <workItem from="1493831591719" duration="1945000" />
+      <workItem from="1493833623573" duration="597000" />
+      <workItem from="1493835465565" duration="1536000" />
+      <workItem from="1493871365769" duration="1705000" />
+      <workItem from="1493873109967" duration="1744000" />
+      <workItem from="1493875317969" duration="1736000" />
+      <workItem from="1493877133353" duration="1852000" />
+      <workItem from="1493880482925" duration="1891000" />
+      <workItem from="1493882462007" duration="1802000" />
+      <workItem from="1493884360523" duration="1758000" />
+      <workItem from="1493886195548" duration="1064000" />
+      <workItem from="1493888091037" duration="640000" />
+      <workItem from="1493890864790" duration="241000" />
+      <workItem from="1493891498232" duration="321000" />
+      <workItem from="1493891862233" duration="625000" />
+      <workItem from="1493894335266" duration="589000" />
+      <workItem from="1493897492821" duration="1528000" />
+      <workItem from="1493899350062" duration="1552000" />
+      <workItem from="1493905411460" duration="1824000" />
+      <workItem from="1493907274495" duration="1687000" />
+      <workItem from="1493909248285" duration="1473000" />
+      <workItem from="1493911532410" duration="1284000" />
+      <workItem from="1493913518540" duration="1591000" />
+      <workItem from="1493915592510" duration="1211000" />
+      <workItem from="1493917664464" duration="899000" />
+      <workItem from="1495554621535" duration="1489000" />
+      <workItem from="1495557226147" duration="690000" />
+      <workItem from="1495559623694" duration="1275000" />
+      <workItem from="1495602496386" duration="1417000" />
+      <workItem from="1495604261435" duration="966000" />
+      <workItem from="1495615752104" duration="898000" />
+      <workItem from="1497517680355" duration="1584000" />
+      <workItem from="1497521068574" duration="1894000" />
+      <workItem from="1497522990366" duration="1812000" />
+      <workItem from="1497525782372" duration="1401000" />
+      <workItem from="1497689814210" duration="1453000" />
+      <workItem from="1497691516445" duration="1834000" />
+      <workItem from="1497694634087" duration="724000" />
+      <workItem from="1497696535400" duration="1528000" />
+      <workItem from="1497700340436" duration="607000" />
+      <workItem from="1497884268649" duration="507000" />
+      <workItem from="1497885261773" duration="1711000" />
+      <workItem from="1497887015792" duration="1922000" />
+      <workItem from="1497889087214" duration="1846000" />
+      <workItem from="1497891025216" duration="1660000" />
+      <workItem from="1498028048595" duration="2000000" />
+      <workItem from="1498030308758" duration="1262000" />
+      <workItem from="1498032153184" duration="844000" />
+      <workItem from="1498040636344" duration="1916000" />
+      <workItem from="1498045451624" duration="614000" />
+      <workItem from="1498114663564" duration="1409000" />
+      <workItem from="1498116137009" duration="1784000" />
+      <workItem from="1498118132650" duration="1220000" />
+      <workItem from="1498120802781" duration="1796000" />
+      <workItem from="1498122633610" duration="1003000" />
+      <workItem from="1498123702668" duration="1795000" />
+      <workItem from="1498125622694" duration="978000" />
+      <workItem from="1498127552213" duration="1994000" />
+      <workItem from="1498129780378" duration="725000" />
+      <workItem from="1498131073693" duration="1745000" />
+      <workItem from="1498132959246" duration="802000" />
+      <workItem from="1498288820916" duration="992000" />
+      <workItem from="1498289892040" duration="1203000" />
+      <workItem from="1498291818108" duration="1685000" />
+      <workItem from="1498293896460" duration="2498000" />
+      <workItem from="1498330671506" duration="723000" />
+      <workItem from="1498837896369" duration="1607000" />
+      <workItem from="1498839589195" duration="1734000" />
+      <workItem from="1498841496670" duration="1781000" />
+      <workItem from="1498843317330" duration="1694000" />
+      <workItem from="1498845577602" duration="1771000" />
+      <workItem from="1498847708098" duration="1919000" />
+      <workItem from="1498892389563" duration="958000" />
+      <workItem from="1498902554004" duration="1103000" />
+      <workItem from="1498903696609" duration="2081000" />
+      <workItem from="1498906230248" duration="1917000" />
+      <workItem from="1498908238017" duration="1800000" />
+      <workItem from="1498910125581" duration="1099000" />
+      <workItem from="1498915011826" duration="1639000" />
+      <workItem from="1498916704467" duration="1824000" />
+      <workItem from="1498998629543" duration="813000" />
+      <workItem from="1499000910232" duration="597000" />
+      <workItem from="1499008864338" duration="1801000" />
+      <workItem from="1499010703687" duration="998000" />
+      <workItem from="1499014564719" duration="2568000" />
+      <workItem from="1499017233806" duration="2091000" />
+      <workItem from="1499019355487" duration="1362000" />
+      <workItem from="1499021122669" duration="105000" />
+      <workItem from="1499021352750" duration="1764000" />
+      <workItem from="1499065244938" duration="954000" />
+      <workItem from="1499075720118" duration="1370000" />
+      <workItem from="1499077484787" duration="1374000" />
+      <workItem from="1499090607961" duration="1240000" />
+      <workItem from="1499098666151" duration="932000" />
+      <workItem from="1499100615613" duration="1726000" />
+      <workItem from="1499162195081" duration="1807000" />
+      <workItem from="1499164160557" duration="1781000" />
+      <workItem from="1499239671214" duration="2128000" />
+      <workItem from="1499244467444" duration="176000" />
+      <workItem from="1499250283837" duration="1834000" />
+      <workItem from="1499252164609" duration="1788000" />
+      <workItem from="1499254255235" duration="1786000" />
+      <workItem from="1499256536530" duration="1777000" />
+      <workItem from="1499258376228" duration="458000" />
+      <workItem from="1499263617547" duration="1381000" />
+      <workItem from="1499267460461" duration="1606000" />
+      <workItem from="1499269351330" duration="1818000" />
+      <workItem from="1499274947251" duration="31000" />
+      <workItem from="1499275119607" duration="1115000" />
+      <workItem from="1499276329366" duration="570000" />
+      <workItem from="1499279812345" duration="1822000" />
+      <workItem from="1499281682470" duration="1423000" />
+      <workItem from="1499325743980" duration="617000" />
+      <workItem from="1499332785798" duration="1899000" />
+      <workItem from="1499334737229" duration="1670000" />
+      <workItem from="1499336949731" duration="1948000" />
+      <workItem from="1499338971724" duration="1904000" />
+      <workItem from="1499340919182" duration="1884000" />
+      <workItem from="1499342837839" duration="1801000" />
+      <workItem from="1499344720792" duration="277000" />
+      <workItem from="1499348523997" duration="1875000" />
+      <workItem from="1499350460825" duration="1657000" />
+      <workItem from="1499353626764" duration="1787000" />
+      <workItem from="1499356602888" duration="1801000" />
+      <workItem from="1499358440432" duration="1954000" />
+      <workItem from="1499360426993" duration="1834000" />
+      <workItem from="1499362296425" duration="1886000" />
+      <workItem from="1499364214294" duration="2029000" />
+      <workItem from="1499366367635" duration="1813000" />
+      <workItem from="1499368215743" duration="280000" />
+      <workItem from="1499368677625" duration="1411000" />
+      <workItem from="1499370138442" duration="1200000" />
+      <workItem from="1499401070204" duration="1971000" />
+      <workItem from="1499403088688" duration="1806000" />
+      <workItem from="1499404936597" duration="1526000" />
+      <workItem from="1499406883310" duration="122000" />
+      <workItem from="1499407134398" duration="1190000" />
+      <workItem from="1499408904411" duration="77000" />
+      <workItem from="1499410000389" duration="1840000" />
+      <workItem from="1499411883551" duration="1739000" />
+      <workItem from="1499421617610" duration="1451000" />
+      <workItem from="1499423105859" duration="1825000" />
+      <workItem from="1499425083500" duration="1786000" />
+      <workItem from="1499427239992" duration="2114000" />
+      <workItem from="1499429466329" duration="1796000" />
+      <workItem from="1499431290094" duration="1989000" />
+      <workItem from="1499433310007" duration="2148000" />
+      <workItem from="1499445790280" duration="1537000" />
+      <workItem from="1499447896587" duration="1833000" />
+      <workItem from="1499449775314" duration="1526000" />
+      <workItem from="1499451747839" duration="881000" />
+      <workItem from="1499499545510" duration="2182000" />
+      <workItem from="1499504605267" duration="1812000" />
+      <workItem from="1499506457616" duration="2108000" />
+      <workItem from="1499508645521" duration="1371000" />
+      <workItem from="1499510609906" duration="1757000" />
+      <workItem from="1499512581083" duration="955000" />
+      <workItem from="1499514457752" duration="1375000" />
+      <workItem from="1499516354430" duration="660000" />
+      <workItem from="1499585060049" duration="822000" />
+      <workItem from="1499586510266" duration="1387000" />
+      <workItem from="1499588288535" duration="1672000" />
+      <workItem from="1499590199151" duration="1695000" />
+      <workItem from="1499592480446" duration="1823000" />
+      <workItem from="1499594332686" duration="2379000" />
+      <workItem from="1499597373531" duration="1798000" />
+      <workItem from="1499599320555" duration="1801000" />
+      <workItem from="1499601408233" duration="1813000" />
+      <workItem from="1499603374541" duration="1757000" />
+      <workItem from="1499611931770" duration="655000" />
+      <workItem from="1499616952174" duration="984000" />
+      <workItem from="1499694656649" duration="1207000" />
+      <workItem from="1499697546941" duration="1213000" />
+      <workItem from="1499700162357" duration="2260000" />
+      <workItem from="1499707123188" duration="288000" />
+      <workItem from="1499755452348" duration="1714000" />
+      <workItem from="1499757201842" duration="1970000" />
+      <workItem from="1499759206074" duration="1834000" />
+      <workItem from="1499761991235" duration="2051000" />
+      <workItem from="1499764074651" duration="1794000" />
+      <workItem from="1499765900963" duration="1796000" />
+      <workItem from="1499767755917" duration="1846000" />
+      <workItem from="1499769633430" duration="1753000" />
+      <workItem from="1499771506658" duration="1516000" />
+      <workItem from="1499773421466" duration="747000" />
+      <workItem from="1499775368755" duration="1200000" />
+      <workItem from="1499777385015" duration="1660000" />
+      <workItem from="1499779251498" duration="1292000" />
+      <workItem from="1499781262652" duration="1201000" />
+      <workItem from="1499782824000" duration="101000" />
+      <workItem from="1499788169781" duration="1786000" />
+      <workItem from="1499790087630" duration="1938000" />
+      <workItem from="1499792502735" duration="1295000" />
+      <workItem from="1499795075945" duration="887000" />
+      <workItem from="1499797199955" duration="1247000" />
+      <workItem from="1499799296474" duration="51000" />
+      <workItem from="1499837424718" duration="264000" />
+      <workItem from="1499840862309" duration="1203000" />
+      <workItem from="1499842938444" duration="598000" />
+      <workItem from="1499844878401" duration="614000" />
+      <workItem from="1499850518110" duration="1826000" />
+      <workItem from="1499852389596" duration="1485000" />
+      <workItem from="1499854307898" duration="994000" />
+      <workItem from="1499856536960" duration="291000" />
+      <workItem from="1499857790043" duration="652000" />
+      <workItem from="1499876725228" duration="1617000" />
+      <workItem from="1499923680604" duration="1493000" />
+      <workItem from="1499926481466" duration="17000" />
+      <workItem from="1499926514993" duration="1754000" />
+      <workItem from="1499928303031" duration="371000" />
+      <workItem from="1499928712083" duration="1463000" />
+      <workItem from="1499932761065" duration="1106000" />
+      <workItem from="1499934008383" duration="836000" />
+      <workItem from="1499943158072" duration="1631000" />
+      <workItem from="1499944819443" duration="1805000" />
+      <workItem from="1499946714023" duration="1788000" />
+      <workItem from="1499948545260" duration="1447000" />
+      <workItem from="1499955258454" duration="1677000" />
+      <workItem from="1499958286686" duration="2141000" />
+      <workItem from="1499960523614" duration="1804000" />
+      <workItem from="1499962467365" duration="1904000" />
+      <workItem from="1499964413215" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="479819000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1280" height="725" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.283214" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8947368" sideWeight="0.51233095" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29252782" sideWeight="0.49085122" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990461" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/branches.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branch_companies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="139" column="11" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/invoices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branches.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branch_companies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branches.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branch_companies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branches.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/invoices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/branch2company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20170421171958-create-branch-2-products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20170417105307-create-employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20170421175709-create-accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170701103023-branch2company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20170421173555-create-invoice-2-products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/invoice2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170702181411-invoice2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/order2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170702182706-stock_order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170702181956-order2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/stock_order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/invoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170701102958-accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170702180143-branch2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170701103107-company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170702155233-products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/branch2company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/branch2products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170701103009-branch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20170701103115-employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="259" column="47" lean-forward="false" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/all_companies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="97" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branch_companies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="148" column="7" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branch_products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="144" column="19" lean-forward="false" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/invoices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/branches.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/stock_order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="140" column="7" lean-forward="true" selection-start-line="140" selection-start-column="7" selection-end-line="140" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+
+<div class="container text-color">
+  <div class="row">
+    <br/>
+
+    <div class="col-sm-3 about">
+      <div class="media">
+        <div class="media-left">
+          <img class="img-rounded" style="width: 35px" src="/src/app/images/owaisuddin.jpg">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Owais Uddin Gilani</h4>
+
+        </div>
+        <br/>
+        <div class="media-left">
+          <img class="img-rounded" style="width: 35px" src="/src/app/images/talha.jpg" >
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Talha Saleem</h4>
+        </div>
+        <br/>
+        <div class="media-left ">
+          <img class="img-rounded" style="width: 30px" src="/src/app/images/pic.PNG" >
+        </div>
+        <div class="media-body">
+
+          <h4 class="media-heading">Owais Karni</h4>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="col-sm-5"></div>
+    <div class="col-sm-4 side-heading">
+  <h1>Inventory Management System</h1>
+      <nav>
+        <p>Inventory management is the supervision of non-capitalized assets (inventory) and stock items. A component of supply chain management, inventory management supervises the flow of goods from manufacturers to warehouses and from these facilities to point of sale.</p>
+        <button routerLink="/login" routerLinkActive="active" class="btn  btn-danger loginbutton">Login</button>
+      </nav>
+      <router-outlet></router-outlet>
+
+    </div>
+
+  </div>
+</div>
+<script>
+  var firstApp = angular.module("Images",[]);
+  var firstController = function ($scope) {
+    var listimage={
+      ID:'1',
+      Name:"Jasmin",
+      Path: "./background.jpg"
+    };
+    $scope.dataholder=listimage;
+  };
+  firstApp.controller("ControllerName",firstController)
+</script>
+
+

@@ -1,0 +1,77 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Inventory</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="#"><a (click)="designation()">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="#"><a routerLink="/manager_view_order" routerLinkActive="active">StockOrder<span
+                            class="sr-only">(current)</span></a></li>
+                </ul>
+                <router-outlet></router-outlet>
+
+                <ul class=" nav navbar-nav navbar-btn ">
+                    <button class="btn btn-primary" (click)="addStock()">Stock Order</button>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>{{username}}</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" routerLinkActive="active" (click)="Logout()">Logout</a></li>
+                </ul>
+
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div class="container branches">
+
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Branches</div>
+        <div class="panel-body">
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Order_id</th>
+                    <th>Quantity</th>
+                    <th>Total_Price</th>
+                    <th>branch_id</th>
+
+                </tr>
+                </thead>
+
+                <tr *ngFor="let o of order">
+                    <td><a (click)="viewOrder(o)">{{o.order_id}}</a></td>
+                    <td>{{o.quantity}}</td>
+                    <td>{{o.total_price}}</td>
+                    <td>{{o.branch_id}}</td>
+                    <td>
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>
